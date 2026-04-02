@@ -28,11 +28,11 @@ FFmpeg (with NVIDIA support): Used to rapidly extract the audio track from your 
 ⚙️ Quick Configuration
 Open the script and modify the CONFIGURATION section to match your specific setup:
 
-Bash
 MOVIE_DIR="/path/to/your/Movies/"
 TV_DIR="/path/to/your/TV Shows/"
 WHISPER_API_URL="http://YOUR_WHISPER_IP:9000/asr"
 WHISPER_CONTAINER_NAME="your-whisper-container"
 FFMPEG_CONTAINER_NAME="your-ffmpeg-container"
+
 🚀 Usage
 You can run this script manually from your terminal, or schedule it to run automatically using Unraid's User Scripts plugin via a basic cron schedule (e.g., 0 3 * * * to run daily at 3 AM).
